@@ -8,7 +8,7 @@
     ?>
     <?php
 
-        $myage = 12;
+        $myage = 17;
 
         if($myage > 16 && $myage < 18){
             echo "You can buy specs";
