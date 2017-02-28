@@ -6,7 +6,6 @@
     <?php
         echo "Hello World";
     ?>
-
     <?php
 
         $myage = 12;
