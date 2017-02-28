@@ -20,9 +20,7 @@
     else {
         echo "You can buy sausage rolls";
     }
-
-
-    ?>
+ ?>
 </p>
 </body>
     </html>
