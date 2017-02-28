@@ -6,6 +6,8 @@
     <?php
         echo "Hello World";
     ?>
+</p>
+<p>
     <?php
 
         $myage = 17;
@@ -21,5 +23,26 @@
     }
  ?>
 </p>
+<p>
+    <?php
+    $numberOfPuppies = 2;
+
+    switch($numberOfPuppies){
+        case 1:
+            echo "1 sad puppy";
+            break;
+        case 2:
+            echo "2 happy puppies";
+            break;
+        case 3:
+            echo "3 puppies are a crowd";
+            break;
+        default:
+            echo "All the puppies have gone home";
+   }
+
+    ?>
+</p>
+
 </body>
     </html>
