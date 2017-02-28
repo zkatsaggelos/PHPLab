@@ -60,5 +60,24 @@
 
 </p>
 
+<p>
+    <?php
+    $length = strlen("zoe");
+    print $length;
+    ?>
+
+</p>
+
+
+<p>
+    <?php
+    $myname = "Zoe";
+
+    $partial = substr($myname, 0, 2);
+    print $partial;
+    ?>
+
+
+</p>
 </body>
     </html>
