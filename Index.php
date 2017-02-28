@@ -98,5 +98,17 @@ $round_decimal = round(M_PI, 4);
 print $round_decimal;
 ?>
 </p>
+
+
+<p>
+    <?php
+    for($i = 1; $i < 10; $i++)
+    {
+    echo "<p> Hi </p>";
+}
+?>
+</p>
+
+
 </body>
     </html>
