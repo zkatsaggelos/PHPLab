@@ -75,9 +75,15 @@
 
     $partial = substr($myname, 0, 2);
     print $partial;
-    ?>
+
+    $uppercase = strtoupper($myname);
+    print $uppercase;
+
+    $lowercase = strtolower($uppercase);
+    print $lowercase;
 
 
+?>
 </p>
 </body>
     </html>
