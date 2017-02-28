@@ -85,5 +85,18 @@
 
 ?>
 </p>
+
+<p>
+    <?php
+    $round= round(M_PI);
+    print $round;
+  ?>
+</p>
+<p>
+<?php
+$round_decimal = round(M_PI, 4);
+print $round_decimal;
+?>
+</p>
 </body>
     </html>
